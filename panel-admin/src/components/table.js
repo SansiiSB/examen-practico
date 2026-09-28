@@ -15,14 +15,14 @@ class Table extends HTMLElement {
   loadData() {
     this.data = [
       {
-        producto: 'Eba Sansivieri',
-        precio: 'ebasansibieri@gmail.com',
+        nombre: 'Eba Sansivieri',
+        email: 'ebasansibieri@gmail.com',
         fechaCreacion: '2026-09-22',
         fechaActualizacion: '2026-09-22'
       },
       {
-        producto: 'Eba Sansivieri',
-        precio: 'ebasansibieri@gmail.com',
+        nombre: 'Eba Sansivieri',
+        email: 'ebasansibieri@gmail.com',
         fechaCreacion: '2026-09-22',
         fechaActualizacion: '2026-09-22'
       }
