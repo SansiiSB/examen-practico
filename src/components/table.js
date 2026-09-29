@@ -4,7 +4,6 @@ class Table extends HTMLElement {
     super()
     this.shadow = this.attachShadow({ mode: 'open' })
     this.labels = JSON.parse(this.getAttribute('labels'))
-    console.log(this.labels)
   }
 
   connectedCallback() {
